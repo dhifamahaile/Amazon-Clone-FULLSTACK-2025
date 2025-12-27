@@ -16,7 +16,7 @@ const stripePromise = loadStripe(
 
 function Routing() {
   return (
-    <Router basename="/Amazon-Clone-2025">
+    <Router basename="/Amazon-Clone-FULLSTACK-2025/">
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/auth" element={<Auth />} />
